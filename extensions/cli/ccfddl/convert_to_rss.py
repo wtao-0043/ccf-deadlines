@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import format_datetime
 
-from ccfddl.convert_to_ical import load_mapping, get_timezone, reverse_index
+from convert_to_ical import load_mapping, get_timezone, reverse_index
 
 import yaml
 
